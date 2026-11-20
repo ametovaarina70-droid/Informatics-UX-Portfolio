@@ -118,7 +118,7 @@ export function ContactView({ t }: ContactViewProps) {
           name: trimmedName,
           email: trimmedEmail,
           subject: `[Portfolio] ${activeScope} — ${trimmedName}`,
-          from_name: 'Arina Ametova Portfolio',
+          from_name: trimmedName,
           scope: activeScope,
           message: trimmedMessage,
           botcheck: '',
